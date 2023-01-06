@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as sl
 
-loadie=pickle.load(open("D:/programcodes/projects/saver.sav","rb"))
+loadie=pickle.load(open("saver.sav","rb"))
 
 def depredic(inputda):
     inputdaas=np.asarray(inputda)
