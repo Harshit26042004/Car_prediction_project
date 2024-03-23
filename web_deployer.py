@@ -40,8 +40,7 @@ def main():
         sl.warning(rf)
     sl.markdown('<div style="text-align: right;">Developed by</div>', unsafe_allow_html=True)
     sl.markdown('<div style="text-align: right;">Kavin V</div>', unsafe_allow_html=True)
-    sl.markdown('<div style="text-align: right;">Harshit S</div>', unsafe_allow_html=True)
-    
+    sl.markdown('<div style="text-align: right;">Harshit S</div>', unsafe_allow_html=True)  
         
 if __name__=='__main__':
     main()
